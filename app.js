@@ -38,7 +38,7 @@ const server = http.createServer((req,res)=>{
 
 })
 
-server.listen(PORT, 'localhost', (error)=>{
+server.listen(PORT, 'https://server-kombova.vercel.app/', (error)=>{
     error ? console.log(error) : console.log(`Listening port ${PORT}`)
 })
 
